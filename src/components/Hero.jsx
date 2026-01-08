@@ -70,7 +70,7 @@ const Hero = () => {
 
                             <img
                                 src={profilePic}
-                                alt="Shayan Noore"
+                                alt="ShayanNoore - Shayan Ali Noori"
                                 className="absolute inset-0 w-full h-full object-cover rounded-[32px] shadow-2xl z-10"
                             />
                         </div>
