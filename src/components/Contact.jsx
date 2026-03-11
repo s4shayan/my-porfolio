@@ -40,7 +40,7 @@ const Contact = () => {
                                             <Github className="w-6 h-6 text-slate-400 group-hover:text-slate-900 transition-colors" />
                                             <span className="font-bold text-slate-900">GitHub</span>
                                         </a>
-                                        <a href="https://www.linkedin.com/in/shayan-noore-583a36308/" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center space-x-3 p-6 bg-white rounded-3xl border border-slate-100 hover:border-indigo-200 hover:shadow-xl transition-all group">
+                                        <a href="https://www.linkedin.com/in/shayan-noori-583a36308/" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center space-x-3 p-6 bg-white rounded-3xl border border-slate-100 hover:border-indigo-200 hover:shadow-xl transition-all group">
                                             <Linkedin className="w-6 h-6 text-slate-400 group-hover:text-indigo-600 transition-colors" />
                                             <span className="font-bold text-slate-900">LinkedIn</span>
                                         </a>
