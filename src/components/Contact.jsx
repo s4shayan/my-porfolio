@@ -36,7 +36,7 @@ const Contact = () => {
                                     </a>
 
                                     <div className="flex gap-4">
-                                        <a href="https://github.com/s4shayan" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center space-x-3 p-6 bg-white rounded-3xl border border-slate-100 hover:border-indigo-200 hover:shadow-xl transition-all group">
+                                        <a href="https://github.com/shayannoore" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center space-x-3 p-6 bg-white rounded-3xl border border-slate-100 hover:border-indigo-200 hover:shadow-xl transition-all group">
                                             <Github className="w-6 h-6 text-slate-400 group-hover:text-slate-900 transition-colors" />
                                             <span className="font-bold text-slate-900">GitHub</span>
                                         </a>

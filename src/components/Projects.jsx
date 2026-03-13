@@ -9,7 +9,7 @@ const projects = [
         tech: ['Python', 'Deep Learning', 'MSSQL'],
         icon: Cpu,
         color: 'from-blue-500 to-indigo-600',
-        github: 'https://github.com/s4shayan/AI-Driven-Call-Auditing-System'
+        github: 'https://github.com/shayannoore/AI-Driven-Call-Auditing-System'
     },
     {
         title: 'React Native Expense Tracker',
@@ -17,7 +17,7 @@ const projects = [
         tech: ['React Native', 'Django REST', 'MSSQL'],
         icon: Smartphone,
         color: 'from-indigo-600 to-purple-600',
-        github: 'https://github.com/s4shayan/ExpenseTracker'
+        github: 'https://github.com/shayannoore/ExpenseTracker'
     },
     {
         title: 'EduTrack-Pro',
@@ -25,7 +25,7 @@ const projects = [
         tech: ['Django', 'React', 'React Native', 'SQLite'],
         icon: Monitor,
         color: 'from-purple-600 to-pink-600',
-        github: 'https://github.com/s4shayan/EduTrack-Pro'
+        github: 'https://github.com/shayannoore/EduTrack-Pro'
     },
     {
         title: 'Book Management App',
@@ -33,7 +33,7 @@ const projects = [
         tech: ['React Native', 'SQLite'],
         icon: Smartphone,
         color: 'from-pink-600 to-orange-500',
-        github: 'https://github.com/s4shayan'
+        github: 'https://github.com/shayannoore'
     },
     {
         title: 'Full-Stack Employee Management',
@@ -41,7 +41,7 @@ const projects = [
         tech: ['Django', 'React', 'React Native', 'Expo', 'Bootstrap'],
         icon: Monitor,
         color: 'from-emerald-500 to-teal-600',
-        github: 'https://github.com/s4shayan/EmployeeRecordManager'
+        github: 'https://github.com/shayannoore/EmployeeRecordManager'
     },
 ];
 
@@ -75,7 +75,7 @@ const Projects = () => {
                         viewport={{ once: true }}
                         className="hidden md:block"
                     >
-                        <a href="https://github.com/s4shayan" target="_blank" className="flex items-center space-x-2 text-indigo-600 font-bold hover:text-indigo-700 transition-colors">
+                        <a href="https://github.com/shayannoore" target="_blank" className="flex items-center space-x-2 text-indigo-600 font-bold hover:text-indigo-700 transition-colors">
                             <span>View full GitHub</span>
                             <ExternalLink className="w-5 h-5" />
                         </a>
