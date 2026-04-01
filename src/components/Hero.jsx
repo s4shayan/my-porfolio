@@ -35,7 +35,7 @@ const Hero = () => {
                         </h1>
 
                         <p className="text-xl md:text-2xl text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                            A <span className="text-slate-900 font-semibold underline decoration-indigo-600 decoration-4">React & React Native Developer || AI Developer || Backend Developer</span> passionate about building scalable mobile apps and intelligent API solutions.
+                            An <span className="text-slate-900 font-semibold underline decoration-indigo-600 decoration-4">AI Engineer || LangChain & LangGraph Specialist</span> passionate about building intelligent agents, RAG systems, and scalable AI solutions.
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">

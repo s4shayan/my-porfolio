@@ -1,14 +1,30 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Monitor, Smartphone, Cpu } from 'lucide-react';
+import { ExternalLink, Github, Monitor, Smartphone, Cpu, Bot, MessageSquare } from 'lucide-react';
 
 const projects = [
     {
+        title: 'Professional RAG Chatbot',
+        description: 'A sophisticated RAG system built with LangChain and LangGraph, featuring conversational memory, document analysis, and optimized retrieval pipelines.',
+        tech: ['LangChain', 'LangGraph', 'OpenAI', 'Pinecone', 'Python'],
+        icon: Bot,
+        color: 'from-blue-600 to-indigo-700',
+        github: 'https://github.com/Shayannoore/RAG-chatbot.git'
+    },
+    {
+        title: 'LangGraph Simple RAG',
+        description: 'A streamlined implementation of Retrieval-Augmented Generation using LangGraph to demonstrate state management in multi-step AI workflows.',
+        tech: ['LangGraph', 'Python', 'LLM Agents', 'Vector Store'],
+        icon: MessageSquare,
+        color: 'from-indigo-600 to-purple-700',
+        github: 'https://github.com/Shayannoore/Chatbot_LangGraph.git'
+    },
+    {
         title: 'AI Call Auditing System',
-        description: 'Advanced speaker diarization combined with NLP for deep call insights and sentiment analysis.',
-        tech: ['Python', 'Deep Learning', 'MSSQL'],
+        description: 'Advanced speaker diarization combined with NLP for deep call insights and sentiment analysis using deep learning models.',
+        tech: ['Python', 'Deep Learning', 'PyTorch', 'REST API'],
         icon: Cpu,
-        color: 'from-blue-500 to-indigo-600',
+        color: 'from-purple-600 to-pink-600',
         github: 'https://github.com/shayannoore/AI-Driven-Call-Auditing-System'
     },
     {
@@ -16,32 +32,16 @@ const projects = [
         description: 'Comprehensive mobile solution for financial tracking with real-time analytics and backend synchronization.',
         tech: ['React Native', 'Django REST', 'MSSQL'],
         icon: Smartphone,
-        color: 'from-indigo-600 to-purple-600',
+        color: 'from-pink-600 to-orange-500',
         github: 'https://github.com/shayannoore/ExpenseTracker'
     },
     {
         title: 'EduTrack-Pro',
-        description: 'EduTrack Pro is a comprehensive, cross-platform student management ecosystem designed to streamline administrative tasks and provide accessibility across web and mobile platforms.',
+        description: 'A comprehensive, cross-platform student management ecosystem designed to streamline administrative tasks across web and mobile platforms.',
         tech: ['Django', 'React', 'React Native', 'SQLite'],
         icon: Monitor,
-        color: 'from-purple-600 to-pink-600',
+        color: 'from-orange-500 to-amber-600',
         github: 'https://github.com/shayannoore/EduTrack-Pro'
-    },
-    {
-        title: 'Book Management App',
-        description: 'Intuitive mobile application for library organization featuring offline storage and barcode scanning.',
-        tech: ['React Native', 'SQLite'],
-        icon: Smartphone,
-        color: 'from-pink-600 to-orange-500',
-        github: 'https://github.com/shayannoore'
-    },
-    {
-        title: 'Full-Stack Employee Management',
-        description: 'A centralized workforce management ecosystem featuring a Django REST API, a React-based web dashboard, and an iOS/Android mobile application with image processing.',
-        tech: ['Django', 'React', 'React Native', 'Expo', 'Bootstrap'],
-        icon: Monitor,
-        color: 'from-emerald-500 to-teal-600',
-        github: 'https://github.com/shayannoore/EmployeeRecordManager'
     },
 ];
 

@@ -50,10 +50,10 @@ const About = () => {
                         </h2>
                         <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
                             <p>
-                                I am a dedicated Computer Science graduate with a deep interest in the intersection of mobile technology and Artificial Intelligence. My journey in tech is driven by a desire to solve real-world problems through elegant code.
+                                I am a dedicated Computer Science graduate with a deep interest in the intersection of Software Engineering and Artificial Intelligence. My journey in tech is driven by a desire to solve real-world problems through intelligent agents and advanced AI solutions.
                             </p>
                             <p>
-                                I specialize in building high-performance mobile applications using <span className="text-slate-900 font-bold">React Native</span> and architecting robust backend systems with <span className="text-slate-900 font-bold">FastAPI</span> and <span className="text-slate-900 font-bold">Django REST</span>.
+                                I specialize in building autonomous agents and RAG systems using <span className="text-slate-900 font-bold">LangChain</span> and <span className="text-slate-900 font-bold">LangGraph</span>, and architecting robust AI-driven applications with <span className="text-slate-900 font-bold">Python</span> and <span className="text-slate-900 font-bold">FastAPI</span>.
                             </p>
                         </div>
 

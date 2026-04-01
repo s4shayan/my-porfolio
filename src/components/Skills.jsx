@@ -3,13 +3,12 @@ import { motion } from 'framer-motion';
 import { Code, Database, Layout, Brain, Wrench, Languages } from 'lucide-react';
 
 const skills = [
+    { category: 'AI/ML & Agents', list: ['LangGraph', 'LangChain', 'RAG (Retrieval-Augmented Generation)', 'Machine Learning', 'Deep Learning', 'NLP'], icon: Brain, color: 'text-purple-600', bg: 'bg-purple-50' },
+    { category: 'Backend', list: ['Python', 'FastAPI', 'Django REST', 'Node.js'], icon: Code, color: 'text-indigo-600', bg: 'bg-indigo-50' },
     { category: 'Frontend', list: ['React JS', 'React Native', 'Tailwind CSS'], icon: Layout, color: 'text-blue-600', bg: 'bg-blue-50' },
-    { category: 'Backend', list: ['python','Django REST', 'FastAPI'], icon: Code, color: 'text-indigo-600', bg: 'bg-indigo-50' },
-    { category: 'Databases', list: ['SQL', 'SQLite'], icon: Database, color: 'text-emerald-600', bg: 'bg-emerald-50' },
-    { category: 'AI/ML', list: ['Machine Learning', 'Deep Learning', 'NLP','Computer Vision'], icon: Brain, color: 'text-purple-600', bg: 'bg-purple-50' },
-    { category: 'Tools', list: ['Git', 'VS Code', 'Android Studio'], icon: Wrench, color: 'text-orange-600', bg: 'bg-orange-50' },
-    { category: 'Languages', list: ['Python', 'Java', 'C#'], icon: Languages, color: 'text-orange-600', bg: 'bg-orange-50' },
-
+    { category: 'Databases', list: ['SQL', 'SQLite', 'Pinecone (Vector DB)', 'PostgreSQL'], icon: Database, color: 'text-emerald-600', bg: 'bg-emerald-50' },
+    { category: 'Tools', list: ['Git', 'VS Code', 'Docker', 'LangSmith'], icon: Wrench, color: 'text-orange-600', bg: 'bg-orange-50' },
+    { category: 'Languages', list: ['Python', 'JavaScript', 'Java', 'C#'], icon: Languages, color: 'text-orange-600', bg: 'bg-orange-50' },
 ];
  
 const Skills = () => {
